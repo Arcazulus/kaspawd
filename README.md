@@ -1,5 +1,5 @@
 
-Kaspad
+Kaspawd
 ====
 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
@@ -7,7 +7,7 @@ Kaspad
 
 Kaspad is the reference full node Kaspa implementation written in Go (golang).
 
-## What is kaspa
+## What is kaspaw
 
 Kaspa is an attempt at a proof-of-work cryptocurrency with instant confirmations and sub-second block times. It is based on [the PHANTOM protocol](https://eprint.iacr.org/2018/104.pdf), a generalization of Nakamoto consensus.
 
@@ -31,23 +31,23 @@ $ go version
 - Run the following commands to obtain and install kaspad including all dependencies:
 
 ```bash
-$ git clone https://github.com/kaspanet/kaspad
-$ cd kaspad
+$ git clone https://github.com/Arcazulus/kaspawd
+$ cd kaspawd
 $ go install . ./cmd/...
 ```
 
-- Kaspad (and utilities) should now be installed in `$(go env GOPATH)/bin`. If you did
+- Kaspawd (and utilities) should now be installed in `$(go env GOPATH)/bin`. If you did
   not already add the bin directory to your system path during Go installation,
   you are encouraged to do so now.
 
 
 ## Getting Started
 
-Kaspad has several configuration options available to tweak how it runs, but all
+Kaspawd has several configuration options available to tweak how it runs, but all
 of the basic operations work with zero configuration.
 
 ```bash
-$ kaspad
+$ kaspawd
 ```
 
 ## Discord
@@ -62,7 +62,7 @@ Issue priorities may be seen at https://github.com/orgs/kaspanet/projects/4
 
 ## Documentation
 
-The [documentation](https://github.com/kaspanet/docs) is a work-in-progress
+The [documentation](https://github.com/Arcazulus/docs) is a work-in-progress
 
 ## License
 
