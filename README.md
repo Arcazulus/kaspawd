@@ -9,7 +9,7 @@ Kaspawd is the reference full node Kaspa implementation written in Go (golang).
 
 ## What is kaspaw
 
-Kaspa is an attempt at a proof-of-work cryptocurrency with instant confirmations and sub-second block times. It is based on [the PHANTOM protocol](https://eprint.iacr.org/2018/104.pdf), a generalization of Nakamoto consensus.
+Kaspaw is an attempt at a proof-of-work cryptocurrency with instant confirmations and sub-second block times. It is based on [the PHANTOM protocol](https://eprint.iacr.org/2018/104.pdf), a generalization of Nakamoto consensus.
 
 ## Requirements
 
@@ -28,7 +28,7 @@ Go 1.18 or later.
 $ go version
 ```
 
-- Run the following commands to obtain and install kaspad including all dependencies:
+- Run the following commands to obtain and install kaspawd including all dependencies:
 
 ```bash
 $ git clone https://github.com/Arcazulus/kaspawd
@@ -51,14 +51,7 @@ $ kaspawd
 ```
 
 ## Discord
-Join our discord server using the following link: https://discord.gg/YNYnNN5Pf2
-
-## Issue Tracker
-
-The [integrated github issue tracker](https://github.com/kaspanet/kaspad/issues)
-is used for this project.
-
-Issue priorities may be seen at https://github.com/orgs/kaspanet/projects/4
+Join our discord server using the following link: 
 
 ## Documentation
 
