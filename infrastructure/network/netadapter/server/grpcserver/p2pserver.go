@@ -2,9 +2,9 @@ package grpcserver
 
 import (
 	"context"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/server"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/server/grpcserver/protowire"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/netadapter/server"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/Arcazulus/kaspawd/util/panics"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding/gzip"
