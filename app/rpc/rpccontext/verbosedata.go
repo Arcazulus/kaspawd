@@ -5,17 +5,17 @@ import (
 	"math"
 	"math/big"
 
-	difficultyPackage "github.com/kaspanet/kaspad/util/difficulty"
+	difficultyPackage "github.com/Arcazulus/kaspawd/util/difficulty"
 	"github.com/pkg/errors"
 
-	"github.com/kaspanet/kaspad/domain/consensus/utils/hashes"
+	"github.com/Arcazulus/kaspawd/domain/consensus/utils/hashes"
 
-	"github.com/kaspanet/kaspad/domain/consensus/utils/txscript"
+	"github.com/Arcazulus/kaspawd/domain/consensus/utils/txscript"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/domain/dagconfig"
+	"github.com/Arcazulus/kaspawd/app/appmessage"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model/externalapi"
+	"github.com/Arcazulus/kaspawd/domain/consensus/utils/consensushashing"
+	"github.com/Arcazulus/kaspawd/domain/dagconfig"
 )
 
 // ErrBuildBlockVerboseDataInvalidBlock indicates that a block that was given to BuildBlockVerboseData is invalid.

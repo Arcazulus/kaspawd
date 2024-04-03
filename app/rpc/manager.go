@@ -1,17 +1,17 @@
 package rpc
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol"
-	"github.com/kaspanet/kaspad/app/rpc/rpccontext"
-	"github.com/kaspanet/kaspad/domain"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/utxoindex"
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/connmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
+	"github.com/Arcazulus/kaspawd/app/appmessage"
+	"github.com/Arcazulus/kaspawd/app/protocol"
+	"github.com/Arcazulus/kaspawd/app/rpc/rpccontext"
+	"github.com/Arcazulus/kaspawd/domain"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model/externalapi"
+	"github.com/Arcazulus/kaspawd/domain/utxoindex"
+	"github.com/Arcazulus/kaspawd/infrastructure/config"
+	"github.com/Arcazulus/kaspawd/infrastructure/logger"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/addressmanager"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/connmanager"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/netadapter"
 	"github.com/pkg/errors"
 )
 

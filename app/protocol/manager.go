@@ -5,20 +5,20 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/kaspanet/kaspad/app/protocol/common"
+	"github.com/Arcazulus/kaspawd/app/protocol/common"
 
 	"github.com/pkg/errors"
 
-	"github.com/kaspanet/kaspad/domain"
+	"github.com/Arcazulus/kaspawd/domain"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model/externalapi"
 
-	"github.com/kaspanet/kaspad/app/protocol/flowcontext"
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/connmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
+	"github.com/Arcazulus/kaspawd/app/protocol/flowcontext"
+	peerpkg "github.com/Arcazulus/kaspawd/app/protocol/peer"
+	"github.com/Arcazulus/kaspawd/infrastructure/config"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/addressmanager"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/connmanager"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/netadapter"
 )
 
 // Manager manages the p2p protocol

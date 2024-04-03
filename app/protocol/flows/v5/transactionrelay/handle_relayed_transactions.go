@@ -1,16 +1,16 @@
 package transactionrelay
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	"github.com/kaspanet/kaspad/app/protocol/flowcontext"
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
-	"github.com/kaspanet/kaspad/domain"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/domain/miningmanager/mempool"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/Arcazulus/kaspawd/app/appmessage"
+	"github.com/Arcazulus/kaspawd/app/protocol/common"
+	"github.com/Arcazulus/kaspawd/app/protocol/flowcontext"
+	"github.com/Arcazulus/kaspawd/app/protocol/protocolerrors"
+	"github.com/Arcazulus/kaspawd/domain"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model/externalapi"
+	"github.com/Arcazulus/kaspawd/domain/consensus/utils/consensushashing"
+	"github.com/Arcazulus/kaspawd/domain/miningmanager/mempool"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/netadapter"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

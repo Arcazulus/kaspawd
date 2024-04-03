@@ -5,15 +5,15 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/kaspanet/kaspad/domain/consensusreference"
+	"github.com/Arcazulus/kaspawd/domain/consensusreference"
 
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/miningmanager"
-	"github.com/kaspanet/kaspad/domain/miningmanager/mempool"
-	"github.com/kaspanet/kaspad/domain/prefixmanager"
-	"github.com/kaspanet/kaspad/domain/prefixmanager/prefix"
-	infrastructuredatabase "github.com/kaspanet/kaspad/infrastructure/db/database"
+	"github.com/Arcazulus/kaspawd/domain/consensus"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model/externalapi"
+	"github.com/Arcazulus/kaspawd/domain/miningmanager"
+	"github.com/Arcazulus/kaspawd/domain/miningmanager/mempool"
+	"github.com/Arcazulus/kaspawd/domain/prefixmanager"
+	"github.com/Arcazulus/kaspawd/domain/prefixmanager/prefix"
+	infrastructuredatabase "github.com/Arcazulus/kaspawd/infrastructure/db/database"
 	"github.com/pkg/errors"
 )
 

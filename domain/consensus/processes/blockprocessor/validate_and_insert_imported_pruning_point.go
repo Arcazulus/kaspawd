@@ -1,9 +1,9 @@
 package blockprocessor
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/ruleerrors"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model/externalapi"
+	"github.com/Arcazulus/kaspawd/domain/consensus/ruleerrors"
 	"github.com/pkg/errors"
 )
 

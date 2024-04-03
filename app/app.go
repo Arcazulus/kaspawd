@@ -7,17 +7,17 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
-	"github.com/kaspanet/kaspad/infrastructure/db/database/ldb"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/infrastructure/os/execenv"
-	"github.com/kaspanet/kaspad/infrastructure/os/limits"
-	"github.com/kaspanet/kaspad/infrastructure/os/signal"
-	"github.com/kaspanet/kaspad/infrastructure/os/winservice"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kaspad/util/profiling"
-	"github.com/kaspanet/kaspad/version"
+	"github.com/Arcazulus/kaspawd/infrastructure/config"
+	"github.com/Arcazulus/kaspawd/infrastructure/db/database"
+	"github.com/Arcazulus/kaspawd/infrastructure/db/database/ldb"
+	"github.com/Arcazulus/kaspawd/infrastructure/logger"
+	"github.com/Arcazulus/kaspawd/infrastructure/os/execenv"
+	"github.com/Arcazulus/kaspawd/infrastructure/os/limits"
+	"github.com/Arcazulus/kaspawd/infrastructure/os/signal"
+	"github.com/Arcazulus/kaspawd/infrastructure/os/winservice"
+	"github.com/Arcazulus/kaspawd/util/panics"
+	"github.com/Arcazulus/kaspawd/util/profiling"
+	"github.com/Arcazulus/kaspawd/version"
 )
 
 const (

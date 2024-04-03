@@ -6,7 +6,7 @@
 package app
 
 import (
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/Arcazulus/kaspawd/infrastructure/logger"
 )
 
 var log = logger.RegisterSubSystem("KASD")

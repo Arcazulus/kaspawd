@@ -1,10 +1,10 @@
 package rpchandlers
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/rpc/rpccontext"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
-	"github.com/kaspanet/kaspad/version"
+	"github.com/Arcazulus/kaspawd/app/appmessage"
+	"github.com/Arcazulus/kaspawd/app/rpc/rpccontext"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/netadapter/router"
+	"github.com/Arcazulus/kaspawd/version"
 )
 
 // HandleGetInfo handles the respectively named RPC command

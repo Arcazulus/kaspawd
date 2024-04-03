@@ -1,11 +1,11 @@
 package acceptancedatastore
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/database/serialization"
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/lrucache"
-	"github.com/kaspanet/kaspad/util/staging"
+	"github.com/Arcazulus/kaspawd/domain/consensus/database/serialization"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model/externalapi"
+	"github.com/Arcazulus/kaspawd/domain/consensus/utils/lrucache"
+	"github.com/Arcazulus/kaspawd/util/staging"
 	"google.golang.org/protobuf/proto"
 )
 

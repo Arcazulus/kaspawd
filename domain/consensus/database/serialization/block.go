@@ -1,7 +1,7 @@
 package serialization
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model/externalapi"
 )
 
 // DomainBlockToDbBlock converts DomainBlocks to DbBlock

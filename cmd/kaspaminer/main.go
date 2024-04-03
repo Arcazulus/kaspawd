@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kaspanet/kaspad/util"
+	"github.com/Arcazulus/kaspawd/util"
 
-	"github.com/kaspanet/kaspad/version"
+	"github.com/Arcazulus/kaspawd/version"
 
 	"github.com/pkg/errors"
 
 	_ "net/http/pprof"
 
-	"github.com/kaspanet/kaspad/infrastructure/os/signal"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kaspad/util/profiling"
+	"github.com/Arcazulus/kaspawd/infrastructure/os/signal"
+	"github.com/Arcazulus/kaspawd/util/panics"
+	"github.com/Arcazulus/kaspawd/util/profiling"
 )
 
 func main() {

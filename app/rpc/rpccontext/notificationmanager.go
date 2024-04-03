@@ -3,14 +3,14 @@ package rpccontext
 import (
 	"sync"
 
-	"github.com/kaspanet/kaspad/domain/dagconfig"
+	"github.com/Arcazulus/kaspawd/domain/dagconfig"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/txscript"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model/externalapi"
+	"github.com/Arcazulus/kaspawd/domain/consensus/utils/txscript"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/domain/utxoindex"
-	routerpkg "github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/Arcazulus/kaspawd/app/appmessage"
+	"github.com/Arcazulus/kaspawd/domain/utxoindex"
+	routerpkg "github.com/Arcazulus/kaspawd/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

@@ -1,8 +1,8 @@
 package consensus
 
 import (
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/Arcazulus/kaspawd/infrastructure/logger"
+	"github.com/Arcazulus/kaspawd/util/panics"
 )
 
 var log = logger.RegisterSubSystem("BDAG")

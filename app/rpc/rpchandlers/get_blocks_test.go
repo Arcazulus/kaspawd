@@ -5,18 +5,18 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/rpc/rpccontext"
-	"github.com/kaspanet/kaspad/app/rpc/rpchandlers"
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/model/testapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/hashes"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/testutils"
-	"github.com/kaspanet/kaspad/domain/miningmanager"
-	"github.com/kaspanet/kaspad/infrastructure/config"
+	"github.com/Arcazulus/kaspawd/app/appmessage"
+	"github.com/Arcazulus/kaspawd/app/rpc/rpccontext"
+	"github.com/Arcazulus/kaspawd/app/rpc/rpchandlers"
+	"github.com/Arcazulus/kaspawd/domain/consensus"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model/externalapi"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model/testapi"
+	"github.com/Arcazulus/kaspawd/domain/consensus/utils/hashes"
+	"github.com/Arcazulus/kaspawd/domain/consensus/utils/testutils"
+	"github.com/Arcazulus/kaspawd/domain/miningmanager"
+	"github.com/Arcazulus/kaspawd/infrastructure/config"
 )
 
 type fakeDomain struct {

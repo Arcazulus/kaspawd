@@ -4,22 +4,22 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model/externalapi"
 
-	"github.com/kaspanet/kaspad/domain/miningmanager/mempool"
+	"github.com/Arcazulus/kaspawd/domain/miningmanager/mempool"
 
-	"github.com/kaspanet/kaspad/app/protocol"
-	"github.com/kaspanet/kaspad/app/rpc"
-	"github.com/kaspanet/kaspad/domain"
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/utxoindex"
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	infrastructuredatabase "github.com/kaspanet/kaspad/infrastructure/db/database"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/connmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/id"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/Arcazulus/kaspawd/app/protocol"
+	"github.com/Arcazulus/kaspawd/app/rpc"
+	"github.com/Arcazulus/kaspawd/domain"
+	"github.com/Arcazulus/kaspawd/domain/consensus"
+	"github.com/Arcazulus/kaspawd/domain/utxoindex"
+	"github.com/Arcazulus/kaspawd/infrastructure/config"
+	infrastructuredatabase "github.com/Arcazulus/kaspawd/infrastructure/db/database"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/addressmanager"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/connmanager"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/netadapter"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/netadapter/id"
+	"github.com/Arcazulus/kaspawd/util/panics"
 )
 
 // ComponentManager is a wrapper for all the kaspad services

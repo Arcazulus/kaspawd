@@ -1,20 +1,20 @@
 package protocol
 
 import (
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	"github.com/kaspanet/kaspad/app/protocol/flows/ready"
-	"github.com/kaspanet/kaspad/app/protocol/flows/v5"
+	"github.com/Arcazulus/kaspawd/app/protocol/common"
+	"github.com/Arcazulus/kaspawd/app/protocol/flows/ready"
+	"github.com/Arcazulus/kaspawd/app/protocol/flows/v5"
 	"sync"
 	"sync/atomic"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol/flows/handshake"
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/connmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
-	routerpkg "github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/Arcazulus/kaspawd/app/appmessage"
+	"github.com/Arcazulus/kaspawd/app/protocol/flows/handshake"
+	peerpkg "github.com/Arcazulus/kaspawd/app/protocol/peer"
+	"github.com/Arcazulus/kaspawd/app/protocol/protocolerrors"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/addressmanager"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/connmanager"
+	"github.com/Arcazulus/kaspawd/infrastructure/network/netadapter"
+	routerpkg "github.com/Arcazulus/kaspawd/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model/externalapi"
 )
 
 func initTestBlockRelationsForClone() []*BlockRelations {

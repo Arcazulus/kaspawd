@@ -5,14 +5,14 @@ import (
 	"github.com/pkg/errors"
 	"math/big"
 
-	"github.com/kaspanet/kaspad/domain/consensus/utils/blockheader"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/hashes"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/utxo"
+	"github.com/Arcazulus/kaspawd/domain/consensus/utils/blockheader"
+	"github.com/Arcazulus/kaspawd/domain/consensus/utils/hashes"
+	"github.com/Arcazulus/kaspawd/domain/consensus/utils/utxo"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/subnetworks"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/transactionid"
-	"github.com/kaspanet/kaspad/util/mstime"
+	"github.com/Arcazulus/kaspawd/domain/consensus/model/externalapi"
+	"github.com/Arcazulus/kaspawd/domain/consensus/utils/subnetworks"
+	"github.com/Arcazulus/kaspawd/domain/consensus/utils/transactionid"
+	"github.com/Arcazulus/kaspawd/util/mstime"
 )
 
 // DomainBlockToMsgBlock converts an externalapi.DomainBlock to MsgBlock
