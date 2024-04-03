@@ -9,4 +9,4 @@ import (
 	"github.com/Arcazulus/kaspawd/infrastructure/logger"
 )
 
-var log = logger.RegisterSubSystem("KASD")
+var log = logger.RegisterSubSystem("KAPD")

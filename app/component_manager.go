@@ -22,7 +22,7 @@ import (
 	"github.com/Arcazulus/kaspawd/util/panics"
 )
 
-// ComponentManager is a wrapper for all the kaspad services
+// ComponentManager is a wrapper for all the kaspawd services
 type ComponentManager struct {
 	cfg               *config.Config
 	addressManager    *addressmanager.AddressManager
@@ -34,14 +34,14 @@ type ComponentManager struct {
 	started, shutdown int32
 }
 
-// Start launches all the kaspad services.
+// Start launches all the kaspawd services.
 func (a *ComponentManager) Start() {
 	// Already started?
 	if atomic.AddInt32(&a.started, 1) != 1 {
 		return
 	}
 
-	log.Trace("Starting kaspad")
+	log.Trace("Starting kaspawd")
 
 	err := a.netAdapter.Start()
 	if err != nil {
@@ -51,15 +51,15 @@ func (a *ComponentManager) Start() {
 	a.connectionManager.Start()
 }
 
-// Stop gracefully shuts down all the kaspad services.
+// Stop gracefully shuts down all the kaspawd services.
 func (a *ComponentManager) Stop() {
 	// Make sure this only happens once.
 	if atomic.AddInt32(&a.shutdown, 1) != 1 {
-		log.Infof("Kaspad is already in the process of shutting down")
+		log.Infof("Kaspawd is already in the process of shutting down")
 		return
 	}
 
-	log.Warnf("Kaspad shutting down")
+	log.Warnf("Kaspawd shutting down")
 
 	a.connectionManager.Stop()
 

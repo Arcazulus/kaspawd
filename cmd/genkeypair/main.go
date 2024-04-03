@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Arcazulus/kaspawd/cmd/kaspawallet/libkaspawallet"
+	"github.com/Arcazulus/kaspawd/cmd/kaspawwallet/libkaspawwallet"
 	"github.com/Arcazulus/kaspawd/util"
 )
 
@@ -12,7 +12,7 @@ func main() {
 		panic(err)
 	}
 
-	privateKey, publicKey, err := libkaspawallet.CreateKeyPair(false)
+	privateKey, publicKey, err := libkaspawwallet.CreateKeyPair(false)
 	if err != nil {
 		panic(err)
 	}
